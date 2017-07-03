@@ -1,0 +1,472 @@
+{
+  "renderer": "global",
+  "name": "edge",
+  "nodes": [
+    {
+      "renderer": "region",
+      "name": "INTERNET",
+      "class": "normal"
+    },
+    {
+      "renderer": "region",
+      "name": "Host-0",
+      "maxVolume": 600,
+      "class": "normal",
+      "updated": 1466838546805,
+      "nodes": [
+        {
+          "name": "Site-0",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-1",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-2",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-3",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-4",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-5",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-6",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-7",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-8",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "INTERNET",
+          "renderer": "focusedChild",
+          "class": "normal"
+        }
+      ],
+      "connections": [
+        {
+          "source": "INTERNET",
+          "target": "Site-0",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-1",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-2",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-3",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-4",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-5",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-6",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-7",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-8",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        }
+      ]
+    },
+    {
+      "renderer": "region",
+      "name": "Host-1",
+      "maxVolume": 600,
+      "class": "normal",
+      "updated": 1466838546805,
+      "nodes": [
+        {
+          "name": "Site-0",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-1",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-2",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-3",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-4",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-5",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-6",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-7",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-8",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "INTERNET",
+          "renderer": "focusedChild",
+          "class": "normal"
+        }
+      ],
+      "connections": [
+        {
+          "source": "INTERNET",
+          "target": "Site-0",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-1",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-2",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-3",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-4",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-5",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-6",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-7",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-8",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        }
+      ]
+    },
+    {
+      "renderer": "region",
+      "name": "Host-2",
+      "maxVolume": 600,
+      "class": "normal",
+      "updated": 1466838546805,
+      "nodes": [
+        {
+          "name": "Site-0",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-1",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-2",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-3",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-4",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-5",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-6",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-7",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "Site-8",
+          "renderer": "focusedChild",
+          "class": "normal"
+        },
+        {
+          "name": "INTERNET",
+          "renderer": "focusedChild",
+          "class": "normal"
+        }
+      ],
+      "connections": [
+        {
+          "source": "INTERNET",
+          "target": "Site-0",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-1",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-2",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-3",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-4",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-5",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-6",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-7",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        },
+        {
+          "source": "INTERNET",
+          "target": "Site-8",
+          "metrics": {
+            "danger": 0,
+            "normal": 5
+          },
+          "class": "normal"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "INTERNET",
+      "target": "Host-0",
+      "metrics": {
+        "normal": 45,
+        "danger": 0
+      },
+      "notices": [
+      ],
+      "class": "normal"
+    },
+    {
+      "source": "INTERNET",
+      "target": "Host-1",
+      "metrics": {
+        "normal": 45,
+        "danger": 0
+      },
+      "notices": [
+      ],
+      "class": "normal"
+    },
+    {
+      "source": "INTERNET",
+      "target": "Host-2",
+      "metrics": {
+        "normal": 45,
+        "danger": 0
+      },
+      "notices": [
+      ],
+      "class": "normal"
+    }
+  ]
+}
