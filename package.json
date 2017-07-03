@@ -7,8 +7,10 @@
     "clean": "rimraf dist && mkdirp dist",
     "copy:fonts": "cpx \"./node_modules/source-sans-pro/**/*\" ./dist/fonts",
     "copy:json": "cpx \"./src/*.json\" ./dist",
+    "copy:css": "cpx \"./src/css/*.css\" ./dist/css",
+    "copy:js": "cpx \"./src/js/*.js\" ./dist/js",
     "packypacky": "webpack",
-    "build-full": "npm-run-all clean --parallel packypacky",
+    "build-full": "npm-run-all clean --parallel copy:css copy:js packypacky",
     "full": "node ./dist/backend.js"
   },
   "engines": {
