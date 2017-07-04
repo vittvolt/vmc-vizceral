@@ -3,20 +3,24 @@
   padding: 0 7px;
 }
 
-#update-status .header {
+/* yes */
+#update-status .vizceral-header {
   margin: 0;
   font-weight: 700;
 }
 
+/* yes */
 .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
     border: none;
     padding: 0;
 }
 
+/* yes */
 .table-borderless tbody tr td:first-child {
   text-align: right;
 }
 
+/* yes */
 .table-borderless tbody tr td:last-of-type {
   text-align: left;
   padding-left: 3px;

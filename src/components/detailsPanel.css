@@ -1,5 +1,6 @@
 /* Details Panel
 -------------------------------------------------- */
+/* yes */
 .details-panel {
   background-color: rgb(57, 57, 57);
   border: 1px solid var(--colorBorderLines);
@@ -16,6 +17,7 @@
   width: 0;
 }
 
+/* yes */
 .details-panel-title {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -34,6 +36,7 @@
   padding-bottom: 10px;
 }
 
+/* yes */
 .details-panel-close {
   font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
   content: "\e114";
@@ -73,21 +76,24 @@
   word-wrap: break-word;
 }
 
-.table-container > .table > thead > tr > th {
+/* yes */
+.table-container > .vizceral-table > thead > tr > th {
   padding: 0;
   border-bottom: none;
 }
 
+/* yes */
 .connection-list .table-container, .cluster-list .table-container {
   max-height: 200px;
   overflow: auto;
 }
 
+/* yes */
 .connection-list .ReactVirtualized__Table__row:focus {
   outline:0;
 }
 
-.table-header > .table > thead > tr > th {
+.table-header > .vizceral-table > thead > tr > th {
   padding: 5px;
 }
 

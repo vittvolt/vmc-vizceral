@@ -33,13 +33,6 @@ const hasOwnPropFunc = Object.prototype.hasOwnProperty;
 
 const Button = require('react-button');
 
-const io = require('socket.io-client');
-const socket = io();
-socket.on('welcome', function(data) {
-  console.log(data.message + " received welcome in client !");
-  socket.emit('i am client', {data: 'foo!', id: data.id});
-});
-
 function animate (time) {
   requestAnimationFrame(animate);
   TWEEN.update(time);
@@ -188,40 +181,6 @@ class TrafficFlow extends React.Component {
 
     // Listen for changes to the stores
     filterStore.addChangeListener(this.filtersChanged);
-
-    // Polling ?
-    // setInterval(this.testTimer.bind(this), 3000);
-
-    socket.on('traffic', function(data) {
-      // Update the traffic data
-      console.log('received traffic msg !!!');
-      console.log(JSON.stringify(data));
-      console.log('state trafficData: ');
-      console.log(JSON.stringify(this.state.trafficData));
-
-      const td = this.state.trafficData;
-      td.connections[0].metrics.normal = data.hostsData[0];
-      td.connections[1].metrics.normal = data.hostsData[1];
-      td.connections[2].metrics.normal = data.hostsData[2];
-
-      for (let i = 1; i < td.nodes.length; i++) {
-        for (let j = 0; j < td.nodes[1].connections.length; j++) {
-          console.log("i: " + i + " j: " + j);
-          console.log(td.nodes[i]);
-          td.nodes[i].connections[j].metrics.normal = data.sitesData[i - 1][j];
-        }
-      }
-
-      td.secret = 3;  // well, this is a hack
-
-      this.setState({ trafficData: td });
-      this.updateData(td);
-      this.forceUpdate();
-    }.bind(this));
-
-    socket.on('time', function(data) {
-      console.log(data.time);
-    }.bind(this));
 
     console.log(JSON.stringify(this.state.trafficData));
   }
@@ -397,7 +356,7 @@ class TrafficFlow extends React.Component {
             <strong>{this.state.redirectedFrom.join('/') || '/'}</strong> does not exist, you were redirected to <strong>{this.state.currentView.join('/') || '/'}</strong> instead
           </Alert>
         : undefined }
-        <div className="subheader">
+        <div className="vizceral-subheader">
           <Breadcrumbs rootTitle="global" navigationStack={this.state.currentView || []} navigationCallback={this.navigationCallback} />
           <UpdateStatus status={this.state.regionUpdateStatus} baseOffset={this.state.timeOffset} warnThreshold={180000} />
           <div style={{ float: 'right', paddingTop: '4px' }}>

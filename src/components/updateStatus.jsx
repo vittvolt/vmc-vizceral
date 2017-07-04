@@ -64,8 +64,8 @@ class UpdateStatus extends React.Component {
 
     const tooltip = (
       <Tooltip id="update-status">
-        <p className="header">Data last refreshed</p>
-        <table className="table table-condensed table-borderless">
+        <p className="vizceral-header">Data last refreshed</p>
+        <table className="vizceral-table table-condensed table-borderless">
           <tbody>
             {
               this.props.status.map(status =>

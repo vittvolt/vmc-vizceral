@@ -75,11 +75,13 @@ body > .container {
 
 /* Traffic
 -------------------------------------------------- */
+/* yes */
 .vizceral-container {
   height: 100%;
   position: relative;
 }
 
+/* yes */
 .service-traffic-map {
   position: absolute;
   top: 87px;
@@ -92,6 +94,7 @@ body > .container {
   display: none;
 }
 
+/* yes */
 .clickable {
   cursor: pointer;
 }
@@ -117,14 +120,16 @@ body > .container {
 
 /* Subheader
 -------------------------------------------------- */
-.subheader {
+/* yes */
+.vizceral-subheader {
   padding: 5px 15px 0 15px;
   color: var(--colorBorderLines);
   height: 45px;
   border-bottom: 1px solid var(--colorBorderLines);
 }
 
-.subheader > div {
+/* yes */
+.vizceral-subheader > div {
   display: inline-block;
 }
 
@@ -133,6 +138,7 @@ body > .container {
 }
 
 /* STEPPER */
+/* yes */
 .stepper {
   list-style: none;
   margin: 0;
@@ -199,6 +205,7 @@ body > .container {
 }
 /* END STEPPER */
 
+/* yes */
 .subsection {
   padding-left: 15px;
   padding-right: 15px;
@@ -333,6 +340,7 @@ a.accordion-toggle {
   padding: 6px 8px !important;
 }
 
+/* yes */
 .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
     border: none;
     padding: 0;
@@ -344,11 +352,12 @@ a.accordion-toggle {
   line-height: 1.5em;
 }
 
-.tooltip-inner .table {
+.tooltip-inner .vizceral-table {
   margin-bottom: 0;
 }
 
-.tooltip-inner .header {
+/* yes */
+.tooltip-inner .vizceral-header {
   margin: 0;
   font-weight: 700;
 }
