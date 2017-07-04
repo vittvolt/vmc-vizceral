@@ -9,8 +9,9 @@
     "copy:json": "cpx \"./src/*.json\" ./dist",
     "copy:css": "cpx \"./src/css/*.css\" ./dist/css",
     "copy:js": "cpx \"./src/js/*.js\" ./dist/js",
+    "copy:help": "cpx \"./src/help.htm\" ./dist",
     "packypacky": "webpack",
-    "build-full": "npm-run-all clean --parallel copy:css copy:js packypacky",
+    "build-full": "npm-run-all clean --parallel copy:* packypacky",
     "full": "node ./dist/backend.js"
   },
   "engines": {
