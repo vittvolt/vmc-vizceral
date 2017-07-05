@@ -159,7 +159,7 @@ class TrafficFlow extends React.Component {
       .end((err, res) => {
         if (res && res.status === 200) {
           this.traffic.clientUpdateTime = Date.now();
-          this.updateData(res.body);
+          this.updateData(JSON.parse(res.text));  // currently the voltdb jetty server returns text header
         }
       });
   }
